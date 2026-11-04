@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Secre Nocturne",
+    "slug": "secre-nocturne",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#11131d"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.dimas.secrenocturne"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#11131d"
+      },
+      "package": "com.dimas.secrenocturne",
+      "permissions": ["VIBRATE", "RECEIVE_BOOT_COMPLETED"]
+    }
+  }
+}

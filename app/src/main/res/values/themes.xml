@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SecreNocturne" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#11131D</item>
+        <item name="android:windowBackground">#11131D</item>
+    </style>
+</resources>
