@@ -808,12 +808,14 @@ const styles = StyleSheet.create({
     borderTopWidth: 1,
     borderTopColor: 'rgba(255, 255, 255, 0.05)',
     flexDirection: 'row',
-    justifyContent: 'space-around',
     alignItems: 'center',
     paddingBottom: 8,
   },
   navItem: {
+    flex: 1,
+    height: '100%',
     alignItems: 'center',
+    justifyContent: 'center',
   },
   navIcon: {
     fontSize: 18,
